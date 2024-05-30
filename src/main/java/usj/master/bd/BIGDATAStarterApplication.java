@@ -11,14 +11,14 @@ import org.springframework.stereotype.Controller;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 @EnableAsync
 @Controller
-public class AimUIStarterApplication extends SpringBootServletInitializer{
+public class BIGDATAStarterApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
-		SpringApplication.run(AimUIStarterApplication.class, args);
+		SpringApplication.run(BIGDATAStarterApplication.class, args);
 	}
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-       return builder.sources(AimUIStarterApplication.class);
+       return builder.sources(BIGDATAStarterApplication.class);
     }
 }
 

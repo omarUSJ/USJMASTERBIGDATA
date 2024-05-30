@@ -38,7 +38,7 @@ public class RatingDTO {
 		@Override
 		public String toString() {
 			return "RatingDTO [ movieId=" + movieId + ", rating=" + rating + "]";
-		}//userId=" + userId + ",
+		}
 	
 	    
 }

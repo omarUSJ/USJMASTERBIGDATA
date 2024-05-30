@@ -1,4 +1,4 @@
-package com.quantech.aimui;
+package usj.master.bd;
 
 
 import org.junit.jupiter.api.Test;
