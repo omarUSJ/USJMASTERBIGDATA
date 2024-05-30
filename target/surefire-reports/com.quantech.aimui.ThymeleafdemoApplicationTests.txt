@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.quantech.aimui.ThymeleafdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.067 s - in com.quantech.aimui.ThymeleafdemoApplicationTests

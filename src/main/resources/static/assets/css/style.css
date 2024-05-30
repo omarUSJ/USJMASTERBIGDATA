@@ -1,0 +1,23 @@
+/***** Top content *****/
+
+.top-content { width: 100%; padding: 60px 0 120px 0; }
+
+.top-content h1 { padding-top: 60px; color: #fff; }
+.top-content .description { margin: 30px 0 0 0; padding-bottom: 30px; }
+.top-content .description p { color: #fff; color: rgba(255, 255, 255, 0.8); }
+.top-content .description a { color: #fff; color: rgba(255, 255, 255, 0.8); border-color: #fff; border-color: rgba(255, 255, 255, 0.8); }
+.top-content .description a:hover,
+.top-content .description a:focus { color: #fff; color: rgba(255, 255, 255, 0.8); }
+
+/*****Home Top content *****/
+
+.home-top-content { width: 100%; padding: 60px 0 120px 0; }
+
+.home-top-content h1 { padding-top: 60px; color: #fff; }
+.home-top-content .description { margin: 30px 0 0 0; padding-bottom: 30px; }
+.home-top-content .description p { color: #fff; color: rgba(255, 255, 255, 0.8); }
+.home-top-content .description a { color: #fff; color: rgba(255, 255, 255, 0.8); border-color: #fff; border-color: rgba(255, 255, 255, 0.8); }
+.home-top-content .description a:hover,
+.home-top-content .description a:focus { color: #fff; color: rgba(255, 255, 255, 0.8); }
+
+/*************************************************************************************************/

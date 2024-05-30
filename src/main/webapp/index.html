@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VOD Portal</title>
+    <script>
+        async function fetchMovies() {
+            const response = await fetch('/movies');
+            const movies = await response.json();
+            const movieList = document.getElementById('movie-list');
+            movieList.innerHTML = '';
+            movies.forEach(movie => {
+                const listItem = document.createElement('li');
+                listItem.textContent = movie.title;
+                listItem.onclick = () => selectMovie(movie._id.$oid);
+                movieList.appendChild(listItem);
+            });
+        }
+
+        async function selectMovie(movieId) {
+            const response = await fetch(`/recommend/${movieId}`);
+            const recommendations = await response.text();
+            document.getElementById('recommendations').textContent = recommendations;
+        }
+
+        window.onload = fetchMovies;
+    </script>
+</head>
+<body>
+    <h1>Movies</h1>
+    <ul id="movie-list"></ul>
+    <h2>Recommendations</h2>
+    <pre id="recommendations"></pre>
+</body>
+</html>
